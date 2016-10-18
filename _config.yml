@@ -7,12 +7,12 @@ baseurl: '/'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Kris Lee'
+  email: kris@krislq.com
+  twitter_username: qianhen136
+  facebook_username: krislqiang
+  github_username:  krislq
+  linkedin_username:  krislq
 
 defaults:
   -
