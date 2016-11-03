@@ -1,0 +1,49 @@
+This file lists the default content for description, mail subject and mail content in several language for your reference. Freely to modify it as you wish.
+本文件列出描述，邮件标题和邮件内容的默认内容仅供参考，请自行定义该内容。
+
+**** Description ****
+1. English
+<b>Note:</b> Commenter is allowed to use <b>'@User+blank'</b> to automatically notify your reply to other commenter. e.g, if ABC is one of commenter of this post, then write '@ABC '(exclude ') will automatically send your comment to ABC. Using '@all ' to notify all previous commenters. Be sure that the value of User should exactly match with commenter's name (case sensitive). Or simple click @ button.
+2. Chinese
+<b>注意</b>: 评论者允许使用<b>'@user空格'</b>的方式将自己的评论通知另外评论者。例如， ABC是本文的评论者之一，则使用'@ABC '(不包括单引号)将会自动将您的评论发送给ABC。使用'@all '，将会将评论发送给之前所有其它评论者。请务必注意user必须和评论者名相匹配(大小写一致)。或点击@按钮。
+
+
+**** Mail Subject ****
+1. English
+Your comment on [%blog_name%] just been replied by %comment_author%
+2. Chinese
+您在[%blog_name%]上的评论刚刚被%comment_author%回复了
+
+
+**** Mail Content ****
+1. English
+Hello, %user%.<br/>
+Your comment on 《<a href='%post_link%'>%post_title%</a>》just been replied by（%comment_author%）. Why not check it rightnow. ^_^<br/>
+<div style="padding:5px;border:1px solid #888;">
+Your comment:<br />
+%your_comment%
+<div style="margin-left:5px;margin-right:5px;padding:5px;border:1px solid #ccc;">   
+New reply:<br />
+%reply_comment%<br />
+<div align='right'>%comment_time%</div>
+</div>
+</div>
+<div style="margin-top:10px;padding-bottom:10px;border-bottom:1px solid #ccc;"><a href="%comment_link%" target="_blank">View reply</a>, or click <a href="mailto:%admin_email%">here</a> to send mail to Admin</div>
+<div align='right'>DO Not reply this mail</div>
+<a href="%blog_link%">%blog_name%</a>，Welcom to subscribe to <a href="%rss_link%">%rss_name%</a>.<br/>
+Mail notification service is provided by <a href="http://wordpress.org/extend/plugins/mailtocommenter/">Mail To Commenter</a>.
+2. Chinese
+%user%，您好：<br/>
+您在 《<a href="%post_link%">%post_title%</a>》上的评论被（%comment_author%）回复了，快去看看吧^_^<br/>
+<div style="padding:5px;border:1px solid #888;">
+新的回复：<br />
+%reply_comment%
+<div style="margin-left:5px;margin-right:5px;padding:5px;border:1px solid #ccc;">   
+您的评论：<br />
+%your_comment%<br />
+</div>
+</div>
+<div style="margin-top:10px;margin-left:10px;padding-bottom:10px;border-bottom:1px solid #ccc;"><a href='%comment_link%' target='_blank'>查看回复</a>，或点击<a href="mailto:%admin_email%">这里</a>回复邮件给博主</div>
+<div align='right'>请勿直接回复本邮件</div>
+<a href="%blog_link%">%blog_name%</a>，欢迎订阅本站<a href="%rss_link%">%rss_name%</a><br/>
+使用<a href="http://wordpress.org/extend/plugins/mailtocommenter/">Mail To Commenter</a>插件提供本通知服务。

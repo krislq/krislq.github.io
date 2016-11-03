@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>Kris on Mobile Development | 专注移动互联，提供移动开发、培训与解决方案。</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.krislq.com/wp-content/themes/Zine/style.css" />
+<link rel="shortcut icon" href="http://www.krislq.com/favicon.ico" />
+<link rel="pingback" href="http://www.krislq.com/xmlrpc.php" />
+
+	<style type="text/css">
+		#fancybox-close{right:-15px;top:-15px}
+		div#fancybox-content{border-color:#FFFFFF}
+		div#fancybox-title{background-color:#FFFFFF}
+		div#fancybox-outer{background-color:#FFFFFF}
+		div#fancybox-title-inside{color:#333333}
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="Kris on Mobile Development &raquo; Feed" href="http://www.krislq.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kris on Mobile Development &raquo; 评论Feed" href="http://www.krislq.com/comments/feed/" />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.krislq.com/wp-content/plugins/fancybox-for-wordpress/fancybox/fancybox.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.krislq.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type="text/javascript">
+var duoshuoQuery = {"short_name":"krislq","sso":{"login":"http:\/\/www.krislq.com\/wp-login.php?action=duoshuo_login","logout":"http:\/\/www.krislq.com\/wp-login.php?action=logout&_wpnonce=5750617ac4"},"theme":"default","stylePatch":"wordpress\/Zine"};
+duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
+duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
+</script>
+<script type="text/javascript" src="http://static.duoshuo.com/embed.js" charset="UTF-8" async="async"></script>
+<script type='text/javascript' src='http://www.krislq.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.krislq.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.krislq.com/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://www.krislq.com/wp-content/plugins/fancybox-for-wordpress/js/jquery.easing.1.3.min.js?ver=1.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.krislq.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.krislq.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+
+<!-- Fancybox for WordPress v3.0.2 -->
+<script type="text/javascript">
+jQuery(function(){
+
+jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+	var arr = jQuery("a.fancybox");
+	jQuery.each(arr, function() {
+		var title = jQuery(this).children("img").attr("title");
+		jQuery(this).attr('title',title);
+	})
+}
+
+// Supported file extensions
+var thumbnails = jQuery("a:has(img)").not(".nolightbox").filter( function() { return /\.(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+
+thumbnails.addClass("fancybox").attr("rel","fancybox").getTitle();
+jQuery("a.fancybox").fancybox({
+	'cyclic': false,
+	'autoScale': true,
+	'padding': 10,
+	'opacity': true,
+	'speedIn': 500,
+	'speedOut': 500,
+	'changeSpeed': 300,
+	'overlayShow': true,
+	'overlayOpacity': "0.3",
+	'overlayColor': "#666666",
+	'titleShow': true,
+	'titlePosition': 'inside',
+	'enableEscapeButton': true,
+	'showCloseButton': true,
+	'showNavArrows': true,
+	'hideOnOverlayClick': true,
+	'hideOnContentClick': false,
+	'width': 560,
+	'height': 340,
+	'transitionIn': "elastic",
+	'transitionOut': "elastic",
+	'centerOnScroll': true,
+	'easingIn': "easeOutBack",
+	'easingOut': "easeInBack",
+	'easingChange': "easeInOutQuart"
+});
+
+
+})
+</script>
+<!-- END Fancybox for WordPress -->
+<link rel="stylesheet" type="text/css" href="http://www.krislq.com/wp-content/plugins/wp-code-highlight/css/wp-code-highlight.css" media="screen" />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style>
+.post, .page .page,.commentlist li.depth-1,h4.widget-title,#author,#email,#url,#comment{background-color:rgba(255,255,255,.9)}
+#toolbar{opacity:.9}
+#comments h3, #related_posts h3 ,#comments h3 span, #related_posts h3 span{background:none}
+#header,#nav,#footer{border-color:rgba(255,255,255,.8)}
+#nav,#footer{-webkit-box-shadow:0 0 12px rgba(0,0,0,.2);-moz-box-shadow:0 0 12px rgba(0,0,0,.2);box-shadow:0 0 12px rgba(0,0,0,.2)}
+#sidebar .widget_categories li{width:95px;float:left}#sidebar .widget_links li{width:95px;float:left}</style>
+</head>
+
+<body class="home blog">
+<div id="header" role="banner">
+	<div id="masthead">
+		<div id="branding">
+			<h1 id="logo">
+				<a href="http://www.krislq.com/" title="Kris on Mobile Development" rel="home"><img alt="Kris on Mobile Development" src="http://www.krislq.com/wp-content/themes/Zine/images/logo.png" />Kris on Mobile Development</a>
+			</h1>
+			<div id="site-description">专注移动互联，提供移动开发、培训与解决方案。</div>
+		</div>
+		<div id="toolbar">
+			<ul>
+				<li class="search">
+					<form role="search" method="get" id="searchform" action="http://www.krislq.com/">
+						<input type="text" value="搜索" name="s" id="s" />
+						<input type="submit" id="searchsubmit" value="搜索" />
+					</form>
+				</li>
+				<li class="rss"><a href="http://list.qq.com/cgi-bin/qf_invite?id=abae06cf8d9c8c31083db02b4068309aae7c804724ea3ad1" target="_blank">订阅</a></li>
+								<li class="mblog mblog_sina"><a href="http://www.weibo.com/kris008" target="_blank">微博</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="nav" role="navigation">
+		<div id="menu-container" class="menu-%e5%af%bc%e8%88%aa-container"><ul id="menu-%e5%af%bc%e8%88%aa" class="menu"><li id="menu-item-465" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-465"><a href="http://www.krislq.com/"><span>首页</span><span class="desc">INDEX</span></a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://www.krislq.com/project/"><span>项目</span><span class="desc">PROJECTS</span></a></li>
+<li id="menu-item-607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-607"><a href="http://www.krislq.com/tools/"><span>工具</span><span class="desc">TOOLS</span></a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="http://www.krislq.com/book/"><span>书籍</span><span class="desc">BOOKS</span></a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="http://www.krislq.com/travel/"><span>旅行</span><span class="desc">TRAVEL</span></a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="http://www.krislq.com/archive/"><span>归档</span><span class="desc">ARCHIVES</span></a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="http://www.krislq.com/about/"><span>关于</span><span class="desc">ABOUT</span></a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.krislq.com/wall/"><span>留言墙</span><span class="desc">WALL</span></a></li>
+</ul></div>	</div>
+</div>
+
+<div id="main">	<div id="content" role="main">
+		
+		<div id="post-927" class="post-927 post type-post status-publish format-standard hentry category-book category-uncategorized category-project">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2014/07/pm_10_ask/" title="链向 产品经理十问 的固定链接" rel="bookmark">产品经理十问</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2014-7</span><span class="sl">-</span><span class="entry-day">24</span></span>
+				分类：<a href="http://www.krislq.com/category/book/" rel="category tag">书籍</a>, <a href="http://www.krislq.com/category/uncategorized/" rel="category tag">随记</a>, <a href="http://www.krislq.com/category/project/" rel="category tag">项目</a> | 
+								<span class="comments-link"><a href="http://www.krislq.com/2014/07/pm_10_ask/#comments" class="ds-thread-count" data-thread-key="927" title="《产品经理十问》上的评论">1条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p><a href="http://www.krislq.com/wp-content/uploads/2014/07/pm4.jpg"><img src="http://www.krislq.com/wp-content/uploads/2014/07/pm4.jpg" alt="pm4" width="500" height="374" class="alignnone size-full wp-image-929" /></a></p>
+<p>1. 产品要解决什么问题？ （产品价值）<br />
+2. 为谁解决这个问题？ （目标市场）<br />
+3. 成功的机会有多大？ （市场规模）<br />
+ <a href="http://www.krislq.com/2014/07/pm_10_ask/#more-927" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+		<div class="a-d">
+			<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1090617504732848";
+/* 首页横幅_728x90 */
+google_ad_slot = "9496768126";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>		</div>
+				<div id="post-918" class="post-918 post type-post status-publish format-standard hentry category-android category-java category-sulotion">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2014/07/mac-x-yosemide10-10-update-jdk-7-jdk-8/" title="链向 mac x Yosemide（10.10） 下安装 jdk 1.7 (jdk 1.8) 的固定链接" rel="bookmark">mac x Yosemide（10.10） 下安装 jdk 1.7 (jdk 1.8)</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2014-7</span><span class="sl">-</span><span class="entry-day">1</span></span>
+				分类：<a href="http://www.krislq.com/category/development/android/" rel="category tag">Android</a>, <a href="http://www.krislq.com/category/development/java/" rel="category tag">Java</a>, <a href="http://www.krislq.com/category/development/sulotion/" rel="category tag">解决方案</a> | 
+								<span class="comments-link"><a href="http://www.krislq.com/2014/07/mac-x-yosemide10-10-update-jdk-7-jdk-8/#comments" class="ds-thread-count" data-thread-key="918" title="《mac x Yosemide（10.10） 下安装 jdk 1.7 (jdk 1.8)》上的评论">3条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p><a href="http://www.krislq.com/wp-content/uploads/2014/07/10.10_jdk_1.8.png"><img src="http://www.krislq.com/wp-content/uploads/2014/07/10.10_jdk_1.8.png" alt="10.10_jdk_1.8" width="840" height="302" class="alignnone size-full wp-image-917" /></a></p>
+<p>在mac x yosemide 系统中不能正常更新jdk到1。7（1.8）的问题，会弹出上面的错误 提示。很多人就在这里会选择放弃他的jdk升级之旅，或者是还原他的mac系统 。其实没那么复杂。来看看我是怎么解决的吧！！<br />
+ <a href="http://www.krislq.com/2014/07/mac-x-yosemide10-10-update-jdk-7-jdk-8/#more-918" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+				<div id="post-891" class="post-891 post type-post status-publish format-standard hentry category-android category-sulotion category-case">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2014/04/sreen_on_off/" title="链向 监听屏幕开、关及用户解锁屏幕 的固定链接" rel="bookmark">监听屏幕开、关及用户解锁屏幕</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2014-4</span><span class="sl">-</span><span class="entry-day">29</span></span>
+				分类：<a href="http://www.krislq.com/category/development/android/" rel="category tag">Android</a>, <a href="http://www.krislq.com/category/development/sulotion/" rel="category tag">解决方案</a>, <a href="http://www.krislq.com/category/development/case/" rel="category tag">随手实例</a> | 
+								<span class="comments-link"><a href="http://www.krislq.com/2014/04/sreen_on_off/#comments" class="ds-thread-count" data-thread-key="891" title="《监听屏幕开、关及用户解锁屏幕》上的评论">1条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p><a href="http://www.krislq.com/wp-content/uploads/2014/04/一排开关.png"><img src="http://www.krislq.com/wp-content/uploads/2014/04/一排开关.png" alt="一排开关" width="700" height="250" class="alignnone size-full wp-image-892" /></a></p>
+<p>最近在项目中尝试去监听屏幕的开与关。唰唰唰在脑子里面就有了一个实现的思路：</p>
+<li>1.屏幕开与关是否有广播?广播事件是什么？
+</li>
+<li>2.写个广播类去监收广播
+</li>
+<li>3.判断是开还是关，然后对应处理<br />
+ <a href="http://www.krislq.com/2014/04/sreen_on_off/#more-891" class="more-link">阅读全文&#8230;</a></li>
+			</div>
+			</div>
+				<div id="post-874" class="post-874 post type-post status-publish format-standard hentry category-android category-sulotion category-case">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2014/02/voicecloud_local/" title="链向 如何通过讯飞语音将文本合成后的语音保存到本地 的固定链接" rel="bookmark">如何通过讯飞语音将文本合成后的语音保存到本地</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2014-2</span><span class="sl">-</span><span class="entry-day">21</span></span>
+				分类：<a href="http://www.krislq.com/category/development/android/" rel="category tag">Android</a>, <a href="http://www.krislq.com/category/development/sulotion/" rel="category tag">解决方案</a>, <a href="http://www.krislq.com/category/development/case/" rel="category tag">随手实例</a> | 
+								<span class="comments-link"><a href="http://www.krislq.com/2014/02/voicecloud_local/#comments" class="ds-thread-count" data-thread-key="874" title="《如何通过讯飞语音将文本合成后的语音保存到本地》上的评论">2条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p><a href="http://www.krislq.com/wp-content/uploads/2014/02/讯飞截图.png"><img src="http://www.krislq.com/wp-content/uploads/2014/02/讯飞截图.png" alt="讯飞截图" width="991" height="261" class="alignnone size-full wp-image-875" /></a></p>
+<p>讯飞大家一定都非常的熟悉。最近需要把做个小功能来把文字转换成语音，所以网上搜索了下，刚好讯飞在android端做了更新，可以保存语音到本地啦。果断下载来试了下。效果不错哟。亲。<br />
+ <a href="http://www.krislq.com/2014/02/voicecloud_local/#more-874" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+				<div id="post-862" class="post-862 post type-post status-publish format-standard hentry category-class category-development tag-248 tag-246 tag-245 tag-247">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2013/10/%e4%b8%ba%e4%bd%95%e7%a8%8b%e5%ba%8f%e5%91%98%e5%ae%8c%e6%88%90%e6%9c%80%e5%90%8e20%e7%9a%84%e5%b7%a5%e4%bd%9c%e9%9c%80%e8%a6%81%e7%9a%84%e6%97%b6%e9%97%b4%e8%b7%9f%e4%b9%8b%e5%89%8d%e7%9a%8480/" title="链向 为何程序员完成最后20%的工作需要的时间跟之前的80%一样多？ 的固定链接" rel="bookmark">为何程序员完成最后20%的工作需要的时间跟之前的80%一样多？</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2013-10</span><span class="sl">-</span><span class="entry-day">26</span></span>
+				分类：<a href="http://www.krislq.com/category/development/class/" rel="category tag">学习课堂</a>, <a href="http://www.krislq.com/category/development/" rel="category tag">开发</a> | 
+				标签：<a href="http://www.krislq.com/tag/%e5%bb%b6%e6%9c%9f/" rel="tag">延期</a>, <a href="http://www.krislq.com/tag/%e7%a8%8b%e5%ba%8f%e5%91%98/" rel="tag">程序员</a>, <a href="http://www.krislq.com/tag/%e7%ba%a2%e7%bb%bf%e7%81%af/" rel="tag">红绿灯</a>, <a href="http://www.krislq.com/tag/%e8%ae%be%e8%ae%a1%e6%a1%86%e6%9e%b6/" rel="tag">设计框架</a> | 				<span class="comments-link"><a href="http://www.krislq.com/2013/10/%e4%b8%ba%e4%bd%95%e7%a8%8b%e5%ba%8f%e5%91%98%e5%ae%8c%e6%88%90%e6%9c%80%e5%90%8e20%e7%9a%84%e5%b7%a5%e4%bd%9c%e9%9c%80%e8%a6%81%e7%9a%84%e6%97%b6%e9%97%b4%e8%b7%9f%e4%b9%8b%e5%89%8d%e7%9a%8480/#comments" class="ds-thread-count" data-thread-key="862" title="《为何程序员完成最后20%的工作需要的时间跟之前的80%一样多？》上的评论">4条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p><a href="http://www.krislq.com/wp-content/uploads/2013/10/last20percentwilltakethethetmeofthe80.jpg"><img src="http://www.krislq.com/wp-content/uploads/2013/10/last20percentwilltakethethetmeofthe80.jpg" alt="last20percentwilltakethethetmeofthe80" width="680" height="454" class="alignnone size-full wp-image-863" /></a></p>
+<p>听过行百里者半九十吧。这句话在程序员的工作中同样适用，到底是为何呢？Matija用一个精巧的比喻揭示了个中道理。<br />
+ <a href="http://www.krislq.com/2013/10/%e4%b8%ba%e4%bd%95%e7%a8%8b%e5%ba%8f%e5%91%98%e5%ae%8c%e6%88%90%e6%9c%80%e5%90%8e20%e7%9a%84%e5%b7%a5%e4%bd%9c%e9%9c%80%e8%a6%81%e7%9a%84%e6%97%b6%e9%97%b4%e8%b7%9f%e4%b9%8b%e5%89%8d%e7%9a%8480/#more-862" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+				<div id="post-842" class="post-842 post type-post status-publish format-standard hentry category-class category-development category-sulotion tag-401 tag-authentication tag-http-basic-authentication tag-httpclient">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2013/06/http-basic-authentication/" title="链向 HTTP Basic Authentication 的固定链接" rel="bookmark">HTTP Basic Authentication</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2013-6</span><span class="sl">-</span><span class="entry-day">29</span></span>
+				分类：<a href="http://www.krislq.com/category/development/class/" rel="category tag">学习课堂</a>, <a href="http://www.krislq.com/category/development/" rel="category tag">开发</a>, <a href="http://www.krislq.com/category/development/sulotion/" rel="category tag">解决方案</a> | 
+				标签：<a href="http://www.krislq.com/tag/401/" rel="tag">401</a>, <a href="http://www.krislq.com/tag/authentication/" rel="tag">Authentication</a>, <a href="http://www.krislq.com/tag/http-basic-authentication/" rel="tag">HTTP Basic Authentication</a>, <a href="http://www.krislq.com/tag/httpclient/" rel="tag">HttpClient</a> | 				<span class="comments-link"><a href="http://www.krislq.com/2013/06/http-basic-authentication/#comments" class="ds-thread-count" data-thread-key="842" title="《HTTP Basic Authentication》上的评论">1条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p><a href="http://www.krislq.com/wp-content/uploads/2013/06/HTTP-Basic-Authentication.png"><img src="http://www.krislq.com/wp-content/uploads/2013/06/HTTP-Basic-Authentication.png" alt="HTTP Basic Authentication" width="700" height="227" class="alignnone size-full wp-image-843 center" /></a></p>
+<p>本文主要讲解了，HTTP BASIC认证,抢先认证介绍和 HttpClient 4.1.1 实例.<br />
+关于 Http的其它几种经常的认证可以在本文最后的相对参考连接中找到。<br />
+ <a href="http://www.krislq.com/2013/06/http-basic-authentication/#more-842" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+				<div id="post-836" class="post-836 post type-post status-publish format-standard hentry category-android category-class category-sulotion tag-action_delete tag-packagemanager tag-sina tag-weibo tag-activitymanager">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2013/06/check_have_installed_one_application/" title="链向 判断手机里面是否装有某个应用 的固定链接" rel="bookmark">判断手机里面是否装有某个应用</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2013-6</span><span class="sl">-</span><span class="entry-day">26</span></span>
+				分类：<a href="http://www.krislq.com/category/development/android/" rel="category tag">Android</a>, <a href="http://www.krislq.com/category/development/class/" rel="category tag">学习课堂</a>, <a href="http://www.krislq.com/category/development/sulotion/" rel="category tag">解决方案</a> | 
+				标签：<a href="http://www.krislq.com/tag/action_delete/" rel="tag">ACTION_DELETE</a>, <a href="http://www.krislq.com/tag/packagemanager/" rel="tag">PackageManager</a>, <a href="http://www.krislq.com/tag/sina/" rel="tag">sina</a>, <a href="http://www.krislq.com/tag/weibo/" rel="tag">weibo</a>, <a href="http://www.krislq.com/tag/%e5%be%ae%e5%8d%9a%ef%bc%8c%e6%96%b0%e6%b5%aa%ef%bc%8cactivitymanager/" rel="tag">微博，新浪，activitymanager</a> | 				<span class="comments-link"><a href="http://www.krislq.com/2013/06/check_have_installed_one_application/#comments" class="ds-thread-count" data-thread-key="836" title="《判断手机里面是否装有某个应用》上的评论">3条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p><a href="http://www.krislq.com/wp-content/uploads/2013/06/Lucid-Dreaming-App-Install副本.png"><img src="http://www.krislq.com/wp-content/uploads/2013/06/Lucid-Dreaming-App-Install副本.png" alt="Lucid-Dreaming-App-Install副本" width="600" height="400" class="alignnone size-full wp-image-837 aligncenter" /></a></p>
+<p>在有的时候，我们需要判断手机是否装有特定的应用，如果有，我们就会打开应用去做某些事情，如果没有装，则需要找另外的解决办法或者是提示用户之类的。</p>
+<p>那么在android中我们需要怎么样判断某个应用是否已经安装到手机中了呢？？？？？<br />
+ <a href="http://www.krislq.com/2013/06/check_have_installed_one_application/#more-836" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+				<div id="post-826" class="post-826 post type-post status-publish format-standard hentry category-android category-class tag-activity tag-android tag-application tag-manifest tag-meta-data tag-receiver tag-service">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2013/06/get_meta-data_in_android_manifest/" title="链向 获取Manifest中<meta-data>标签的值 的固定链接" rel="bookmark">获取Manifest中<meta-data>标签的值</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2013-6</span><span class="sl">-</span><span class="entry-day">25</span></span>
+				分类：<a href="http://www.krislq.com/category/development/android/" rel="category tag">Android</a>, <a href="http://www.krislq.com/category/development/class/" rel="category tag">学习课堂</a> | 
+				标签：<a href="http://www.krislq.com/tag/activity/" rel="tag">Activity</a>, <a href="http://www.krislq.com/tag/android/" rel="tag">Android</a>, <a href="http://www.krislq.com/tag/application/" rel="tag">application</a>, <a href="http://www.krislq.com/tag/manifest/" rel="tag">manifest</a>, <a href="http://www.krislq.com/tag/meta-data/" rel="tag">meta-data</a>, <a href="http://www.krislq.com/tag/receiver/" rel="tag">receiver</a>, <a href="http://www.krislq.com/tag/service/" rel="tag">service</a> | 				<span class="comments-link"><a href="http://www.krislq.com/2013/06/get_meta-data_in_android_manifest/#comments" class="ds-thread-count" data-thread-key="826" title="《获取Manifest中标签的值》上的评论">6条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p>在平时我们开发应用的过程中，我们可能需要设置一些动态变量值随着我们版本的变化一起变化 。在这种情况下，一般我们首先想到的办法可能就是我们申明一个静态的变量，然后在我们的应用中直接使用就行了，以后如果需要修改的时候，我们再找到这个类里面的定义的地方，再重新赋值即可。。。</p>
+<p>当然，我们也可以通过在Menifest里面的meta-data标签来定义一个值，然后在我们的应用中直接去读取即可，这样，下次如果需要修改值，我们就不必再找到我们的代码了，而是在修改我们的版本号的时候，一起就可以修改了。更加方便与便捷。</p>
+<p>这样的应用场景在给多市场打包的时候，你一定见过。比如友盟，有米的sdk里面就有一步为:在 application标签下定义一个meta-data来为不同的市场赋值和传入不同的appId。</p>
+<p>那么我们的自己应用里面应该如何去定义meta-data的值呢？并且怎么在代码中取出我们要想的值 呢？</p>
+<p>那么点击更多，跟着我一起来看看如何操作吧！！！<br />
+ <a href="http://www.krislq.com/2013/06/get_meta-data_in_android_manifest/#more-826" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+				<div id="post-820" class="post-820 post type-post status-publish format-standard hentry category-sulotion tag-git tag-mac tag-vim tag-232">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2013/06/mac-shell-colors/" title="链向 Mac Shell配色方案 的固定链接" rel="bookmark">Mac Shell配色方案</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2013-6</span><span class="sl">-</span><span class="entry-day">22</span></span>
+				分类：<a href="http://www.krislq.com/category/development/sulotion/" rel="category tag">解决方案</a> | 
+				标签：<a href="http://www.krislq.com/tag/git/" rel="tag">git</a>, <a href="http://www.krislq.com/tag/mac/" rel="tag">mac</a>, <a href="http://www.krislq.com/tag/vim/" rel="tag">vim</a>, <a href="http://www.krislq.com/tag/%e9%85%8d%e8%89%b2/" rel="tag">配色</a> | 				<span class="comments-link"><a href="http://www.krislq.com/2013/06/mac-shell-colors/#comments" class="ds-thread-count" data-thread-key="820" title="《Mac Shell配色方案》上的评论">3条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p>mac shell中默认是没有配色方案的，如果你不想一直对着黑白的，或者是单调的命令行，那么就来看看我这收集的一些命令的配色方案吧。。。</p>
+<p>本文收集了，git和vim的配色解决办法 ，欢迎拍砖！<br />
+ <a href="http://www.krislq.com/2013/06/mac-shell-colors/#more-820" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+				<div id="post-807" class="post-807 post type-post status-publish format-standard hentry category-development category-uncategorized tag-kris tag-226 tag-222 tag-51 tag-229">
+			<h2 class="entry-title"><a href="http://www.krislq.com/2013/06/youmi_get_way/" title="链向 有米开发之取之有道 的固定链接" rel="bookmark">有米开发之取之有道</a></h2>
+			<div class="entry-meta"> 
+				<span class="entry-date"><span class="entry-month">2013-6</span><span class="sl">-</span><span class="entry-day">3</span></span>
+				分类：<a href="http://www.krislq.com/category/development/" rel="category tag">开发</a>, <a href="http://www.krislq.com/category/uncategorized/" rel="category tag">随记</a> | 
+				标签：<a href="http://www.krislq.com/tag/kris/" rel="tag">Kris</a>, <a href="http://www.krislq.com/tag/%e5%b9%bf%e5%91%8a/" rel="tag">广告</a>, <a href="http://www.krislq.com/tag/%e5%bc%80%e5%8f%91/" rel="tag">开发</a>, <a href="http://www.krislq.com/tag/%e6%9c%89%e7%b1%b3/" rel="tag">有米</a>, <a href="http://www.krislq.com/tag/%e7%a7%bb%e5%8a%a8%e5%bc%80%e5%8f%91/" rel="tag">移动开发</a> | 				<span class="comments-link"><a href="http://www.krislq.com/2013/06/youmi_get_way/#comments" class="ds-thread-count" data-thread-key="807" title="《有米开发之取之有道》上的评论">1条评论</a></span>
+											</div>
+				<div class="entry-content">
+				<p><a href="http://www.krislq.com/wp-content/uploads/2013/06/取之有道.png"><img class="size-full wp-image-808 aligncenter" alt="取之有道" src="http://www.krislq.com/wp-content/uploads/2013/06/取之有道.png" width="700" height="300" /></a><br />
+在前面两篇中我们有讲到<a href="http://www.eoeandroid.com/thread-281616-1-1.html" target="_blank">我为什么选择有米</a>，及<a href="http://www.eoeandroid.com/thread-281620-1-1.html" target="_blank">如何在自己的应该中添加有米。</a><br />
+然后在今天的内容中，我们会讲到广告平台的盈利模式及一些嵌入的技巧</p>
+<p>有人一直好奇,为什么别人的应用每天收入那么高?<br />
+而自己的就那么一点点的点击率?<br />
+为什么同样的应用,我用有米咱没别人的收入高?<br />
+是不是有米有扣费?</p>
+<p>在回答上面的问题之前，我们先从一些基础的知识点开始了解吧。。<br />
+ <a href="http://www.krislq.com/2013/06/youmi_get_way/#more-807" class="more-link">阅读全文&#8230;</a></p>
+			</div>
+			</div>
+		
+	<div class='wp-pagenavi'>
+<span class='pages'>第 1 页，共 6 页</span><span class='current'>1</span><a class="page larger" href="http://www.krislq.com/page/2/">2</a><a class="page larger" href="http://www.krislq.com/page/3/">3</a><a class="page larger" href="http://www.krislq.com/page/4/">4</a><a class="page larger" href="http://www.krislq.com/page/5/">5</a><span class='extend'>...</span><a class="nextpostslink" rel="next" href="http://www.krislq.com/page/2/">&raquo;</a><a class="last" href="http://www.krislq.com/page/6/">最旧 &raquo;</a>
+</div>	</div>
+	<div id="sidebar" role="complementary">
+		<ul>
+<li id="text-5" class="widget widget_text"><h4 class="widget-title">订阅到邮箱</h4>			<div class="textwidget"><!--QQ邮件列表订阅嵌入代码-->
+<script >
+var nId = "205f350c2f37dc6a25c944414f0cca4876028fc579750f49",nWidth="auto",sColor="light",sText="欢迎订阅，精彩无限：" ;;
+</script>
+<script src="http://list.qq.com/zh_CN/htmledition/js/qf/page/qfcode.js" charset="gb18030"></script></div>
+		</li>
+<li id="text-2" class="widget widget_text"><h4 class="widget-title">关于Kris</h4>			<div class="textwidget"><div style="padding:5px">
+<b><font color='red'>+</font></b> IT人，eoe超级版主，eoe成都同城会负责人。<br />
+<b><font color='red'>+</font></b> 典型狮子男，阳光，随心，自信。<br />
+<b><font color='red'>+</font></b> 常年活跃并蜗居于eoe社区各个角落，带领并负责开发eoe wiki客户端，参与编写《Google Android开发入门与实战》第二版。<br />
+<b><font color='red'>+</font></b> 线下主要从事移动应用研发，并往Android底层探索着 ...<br />
+<b><font color='red'>+</font></b> 脚踏移动互联浪潮而来，未曾有改变世界的豪迈，但求能在移动互联扎根发芽。
+</div>
+</div>
+		</li>
+<li id="text-4" class="widget widget_text"><h4 class="widget-title">Kris微信</h4>			<div class="textwidget"><div style="text-align:center">
+<img border ="0" src="http://www.krislq.com/images/kris_qrcode.jpg" width="210px" alt="Kris 微信账号" title="Kris 微信账号">
+扫描二维码加"krislq"微信为好友。
+</div></div>
+		</li>
+<li id="text-3" class="widget widget_text"><h4 class="widget-title">新浪微博</h4>			<div class="textwidget"><iframe id="sina_widget_1054394381" style="width:100%; height:400px;" frameborder="0" scrolling="no" src="http://v.t.sina.com.cn/widget/widget_blog.php?uid=1054394381&height=400&skin=wd_02&showpic=1"></iframe></div>
+		</li>
+<li id="categories-3" class="widget widget_categories"><h4 class="widget-title">文章分类</h4>		<ul>
+	<li class="cat-item cat-item-80"><a href="http://www.krislq.com/category/development/android/" >Android</a>
+</li>
+	<li class="cat-item cat-item-60"><a href="http://www.krislq.com/category/development/java/" title="关于j2ee, j2se, j2me的开发经验">Java</a>
+</li>
+	<li class="cat-item cat-item-137"><a href="http://www.krislq.com/category/development/python/" >Python</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.krislq.com/category/book/" title="我看过的，或者是推荐的书籍">书籍</a>
+</li>
+	<li class="cat-item cat-item-192"><a href="http://www.krislq.com/category/development/class/" >学习课堂</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.krislq.com/category/toolkit/" title="一些好的工具">工具</a>
+</li>
+	<li class="cat-item cat-item-59"><a href="http://www.krislq.com/category/development/" >开发</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.krislq.com/category/social/" title="关于一些社交的记录">社交</a>
+</li>
+	<li class="cat-item cat-item-193"><a href="http://www.krislq.com/category/development/sulotion/" >解决方案</a>
+</li>
+	<li class="cat-item cat-item-125"><a href="http://www.krislq.com/category/%e8%b5%84%e8%ae%af/" >资讯</a>
+</li>
+	<li class="cat-item cat-item-188"><a href="http://www.krislq.com/category/development/case/" >随手实例</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.krislq.com/category/uncategorized/" title="随手笔记，无分类杂记">随记</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.krislq.com/category/project/" title="开发过的项目，项目总结">项目</a>
+</li>
+		</ul>
+</li>
+		<li id="recent-posts-2" class="widget widget_recent_entries">		<h4 class="widget-title">近期文章</h4>		<ul>
+					<li>
+				<a href="http://www.krislq.com/2014/07/pm_10_ask/">产品经理十问</a>
+						</li>
+					<li>
+				<a href="http://www.krislq.com/2014/07/mac-x-yosemide10-10-update-jdk-7-jdk-8/">mac x Yosemide（10.10） 下安装 jdk 1.7 (jdk 1.8)</a>
+						</li>
+					<li>
+				<a href="http://www.krislq.com/2014/04/sreen_on_off/">监听屏幕开、关及用户解锁屏幕</a>
+						</li>
+					<li>
+				<a href="http://www.krislq.com/2014/02/voicecloud_local/">如何通过讯飞语音将文本合成后的语音保存到本地</a>
+						</li>
+					<li>
+				<a href="http://www.krislq.com/2013/10/%e4%b8%ba%e4%bd%95%e7%a8%8b%e5%ba%8f%e5%91%98%e5%ae%8c%e6%88%90%e6%9c%80%e5%90%8e20%e7%9a%84%e5%b7%a5%e4%bd%9c%e9%9c%80%e8%a6%81%e7%9a%84%e6%97%b6%e9%97%b4%e8%b7%9f%e4%b9%8b%e5%89%8d%e7%9a%8480/">为何程序员完成最后20%的工作需要的时间跟之前的80%一样多？</a>
+						</li>
+				</ul>
+		</li>
+<li id="recent-comments-2" class="widget widget_recent_comments"><h4 class="widget-title">近期评论</h4><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://dev.lasates.com/nine-things-you-have-common-car-title-loans-los-angeles' rel='external nofollow' class='url'>http://dev.lasates.com/nine-things-you-have-common-car-title-loans-los-angeles</a></span>发表在《<a href="http://www.krislq.com/2012/11/android_class_intent_match/#comment-472">Android课堂-Intent匹配，你知多少？</a>》</li><li class="recentcomments"><span class="comment-author-link"><a href='http://igames.co/profile/flkio' rel='external nofollow' class='url'>online payday loans bc</a></span>发表在《<a href="http://www.krislq.com/2012/12/eoe_class_floating_windows_demo/#comment-471">【在线课堂】Android悬浮窗设计 资料下载</a>》</li><li class="recentcomments"><span class="comment-author-link"><a href='http://igames.co/profile/flkio' rel='external nofollow' class='url'>payday advance</a></span>发表在《<a href="http://www.krislq.com/2013/10/%e4%b8%ba%e4%bd%95%e7%a8%8b%e5%ba%8f%e5%91%98%e5%ae%8c%e6%88%90%e6%9c%80%e5%90%8e20%e7%9a%84%e5%b7%a5%e4%bd%9c%e9%9c%80%e8%a6%81%e7%9a%84%e6%97%b6%e9%97%b4%e8%b7%9f%e4%b9%8b%e5%89%8d%e7%9a%8480/#comment-470">为何程序员完成最后20%的工作需要的时间跟之前的80%一样多？</a>》</li><li class="recentcomments"><span class="comment-author-link"><a href='http://igames.co/profile/flkio' rel='external nofollow' class='url'>payday loans online</a></span>发表在《<a href="http://www.krislq.com/2013/04/eclipse_settings/#comment-469">eclipse常用的设置[持续更新]</a>》</li><li class="recentcomments"><span class="comment-author-link"><a href='http://igames.co/profile/flkio' rel='external nofollow' class='url'>quick loans</a></span>发表在《<a href="http://www.krislq.com/2013/05/android-stuido/#comment-468">Android Stuido 使用之初体验</a>》</li></ul></li>
+<li id="linkcat-2" class="widget widget_links"><h4 class="widget-title">友情连接</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.niuble.com/" rel="friend met co-worker colleague" title="eric的博客" target="_blank">Eric 牛逼了</a></li>
+<li><a href="http://www.fancycedar.info/" rel="acquaintance met co-worker colleague" title="fancy的博客" target="_blank">Fancy 墨迹</a></li>
+<li><a href="http://www.iceskysl.com/" title="eoe CTO ice的博客" target="_blank">Iceskysl</a></li>
+<li><a href="http://www.javezh.com/" rel="colleague" target="_blank">JaveZh</a></li>
+<li><a href="http://love.krislq.com" rel="acquaintance met co-worker colleague co-resident spouse date sweetheart" target="_blank">Kris&amp;Seattle</a></li>
+<li><a href="http://weibo.com/kris008">Kris的新浪博客</a></li>
+<li><a href="http://t.qq.com/kris1987">Kris的腾讯微博</a></li>
+<li><a href="http://lj00.yo2.cn/" rel="friend colleague" title="eoe创始人李杰博客" target="_blank">leex的博客</a></li>
+<li><a href="http://andpue.com/" title="marks blog">Mark`s blog</a></li>
+<li><a href="http://www.4wei.cn/" title="eoe 项目经理尘缘的博客" target="_blank">尘缘</a></li>
+<li><a href="http://www.xukailun.me" title="贼寇的博客" target="_blank">贼寇在何方</a></li>
+
+	</ul>
+</li>
+
+<li id="meta-4" class="widget widget_meta"><h4 class="widget-title">功能</h4>			<ul>
+			<li><a href="http://www.krislq.com/wp-login.php?action=register">注册</a></li>			<li><a href="http://www.krislq.com/wp-login.php">登录</a></li>
+			<li><a href="http://www.krislq.com/feed/">文章<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.krislq.com/comments/feed/">评论<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://cn.wordpress.org/" title="基于WordPress，一个优美、先进的个人信息发布平台。">WordPress.org</a></li>			</ul>
+</li>
+		</ul>
+	</div>	<!--WP Code Highlight_start-->
+	<script type="text/javascript">
+		window.onload = function(){prettyPrint();};
+	</script>
+	<script type="text/javascript" src="http://www.krislq.com/wp-content/plugins/wp-code-highlight/js/wp-code-highlight.js"></script>
+	<!--WP Code Highlight_end-->
+	<div class="clear"></div>
+</div>
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div class="left">&copy 2014 <a href="http://www.krislq.com/" rel="home">Kris on Mobile Development</a> | Powered by <a href="http://wordpress.org/" target="_blank" rel="generator">WordPress</a> | Designed by <a href="http://c7sky.com/" target="_blank">Cople</a> | <script src="http://s95.cnzz.com/stat.php?id=4755794&web_id=4755794&show=pic" language="JavaScript"></script>
+<!-- baidu-->
+<div style="display:none">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F549ec241b084b9df6f141900f5fe3f23' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div></div>
+		<div class="right"><a id="gotop" href="#top">&uarr; 返回顶部</a></div>
+	</div>
+</div>
+<script src="http://www.krislq.com/wp-content/themes/Zine/js/ready.js"></script>
+<!--[if lte IE 7]><script src="http://www.krislq.com/wp-content/themes/Zine/js/ie6upgrade.js"></script><![endif]-->
+<div id="wp-auto-top"><div id="wp-auto-top-top"></div><div id="wp-auto-top-bottom"></div></div><script> var commentPositionId = '[name="comments"]:last';var wpAutoTopSpeed = 1;</script><style>
+   #wp-auto-top{position:fixed;top:45%;right:50%;display:block;margin-right:-540px; z-index:9999;}
+   #wp-auto-top-top,#wp-auto-top-comment,#wp-auto-top-bottom{background:url(http://www.krislq.com/wp-content/plugins/wp-auto-top/img/18.png) no-repeat;position:relative;cursor:pointer;height:25px;width:29px;margin:10px 0 0;}
+   #wp-auto-top-comment{background-position:left -30px;height:32px;}#wp-auto-top-bottom{background-position:left -68px;}
+   #wp-auto-top-comment:hover{background-position:right -30px;}
+   #wp-auto-top-top:hover{background-position:right 0;}
+   #wp-auto-top-bottom:hover{background-position:right -68px ;}
+   </style><script type='text/javascript' src='http://www.krislq.com/wp-content/plugins/wp-auto-top/wp-auto-top.js?ver=4.0'></script>
+</body>
+</html>
+<!-- Dynamic page generated in 0.335 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-10-16 15:38:34 -->
+
+<!-- super cache -->

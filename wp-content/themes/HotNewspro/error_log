@@ -1,0 +1,9 @@
+[10-Dec-2012 00:59:22] PHP Fatal error:  Call to undefined function  language_attributes() in /home/krislqco/public_html/wp-content/themes/HotNewspro/header.php on line 2
+[10-Dec-2012 00:59:51] PHP Fatal error:  Call to undefined function  language_attributes() in /home/krislqco/public_html/wp-content/themes/HotNewspro/header.php on line 2
+[10-Dec-2012 00:59:52] PHP Fatal error:  Call to undefined function  language_attributes() in /home/krislqco/public_html/wp-content/themes/HotNewspro/header.php on line 2
+[10-Dec-2012 00:59:56] PHP Fatal error:  Call to undefined function  language_attributes() in /home/krislqco/public_html/wp-content/themes/HotNewspro/header.php on line 2
+[10-Dec-2012 01:00:04] PHP Fatal error:  Call to undefined function  get_header() in /home/krislqco/public_html/wp-content/themes/HotNewspro/blog.php on line 1
+[10-Dec-2012 01:00:13] PHP Fatal error:  Call to undefined function  get_option() in /home/krislqco/public_html/wp-content/themes/HotNewspro/index.php on line 1
+[10-Dec-2012 01:29:23] PHP Fatal error:  Call to undefined function  language_attributes() in /home/krislqco/public_html/wp-content/themes/HotNewspro/header.php on line 2
+[10-Dec-2012 01:30:01] PHP Fatal error:  Call to undefined function  get_header() in /home/krislqco/public_html/wp-content/themes/HotNewspro/blog.php on line 1
+[10-Dec-2012 01:30:14] PHP Fatal error:  Call to undefined function  get_option() in /home/krislqco/public_html/wp-content/themes/HotNewspro/index.php on line 1
