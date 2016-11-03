@@ -1,0 +1,45 @@
+---
+title:	"关于通过Class来生成实例"
+date:	2013-04-11 16:25:16.0
+categories:	[开发,学习课堂,随手实例]
+tags:	[Class,newInstance]
+---
+
+<p style="padding-left: 30px;">我们都知道我们想通过class类来生成一个实例时，可以通过 Class.newInstance() 来生成，但是有多少人知道这个方法只能对不带参数的默认构造参数生效？如果我们的类没有默认的不带参数的构造函数，那又怎么办呢？
+<strong>方法当然是有滴。</strong></p>
+<p style="padding-left: 30px;"><!--more-->
+先来看看如何调用类的默认的无参数构造来生成实例吧：</p>
+<pre lang="java">
+	try {
+	    /*当前包名为com.krislq.demo，必须使用全路径*/   
+            A a=(A)Class.forName("com.krislq.demo.A").newInstance();   
+        } catch (Exception e) {   
+            Log.e("tag","Init failed");   
+        } 
+</pre>
+<p style="padding-left: 30px;">代码解释：</p>
+<p style="padding-left: 60px;">这种方法只是通过调用A类的默认的无参数的构造函数来实例化A。</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;">接下来看看如果在我们的A中有一个带参数的构造函数，我们通过带参数的构造函数来实例化它：</p>
+<pre lang="java">
+	try {
+		/*以下调用无参的构造函数*/
+		Class c=Class.forName("com.krislq.demo.A");
+		Constructor constructor=c.getDeclaredConstructor();
+		//constructor.setAccessible(true);
+		A a=(A)constructor.newInstance(); 
+		/*以下调用带参的构造函数*/
+		Constructor constructor2=c.getDeclaredConstructor(new Class[]{String.class,Integer.class});
+		//constructor2.setAccessible(true); 
+		A a2=(A)constructor2.newInstance(new Object[]{"krislq.com",6});
+	} catch (Exception e) {   
+		Log.e("tag","Init failed"); 
+	} 
+</pre>
+<p style="padding-left: 30px;">代码解释：</p>
+<p style="padding-left: 60px;">Class.getDeclaredConstructor()是获取到当前的类的无参的构造函数。
+constructor.setAccessible(true)是设置当前获取到的构造函数为可访问的。主要是针对，如果该函数的构造函数为私有的情况下。
+constructor.newInstance()当然就是实例化出A啦</p>
+<p style="padding-left: 30px;">注意：</p>
+<p style="padding-left: 60px;">Class.newInstance只对是针对 无参、公有 的构造函数
+constructor.newInstance() 可以使用于任何的情况，如果构造函数是私有的，可以通过 constructor.setAccessible(true)来修改它的访问权限。并且也可以实例化带参数的私有的构造函数哦。</p>
