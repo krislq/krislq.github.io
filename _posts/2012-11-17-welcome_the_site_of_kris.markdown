@@ -1,8 +1,8 @@
 ---
-title:	"欢迎来到Kris的站点"
-date:	2012-11-17 08:52:34.0
-categories:	[随记]
-tags:	[Kris,忐忑,主角,空间]
+title:  "Welcome to Jekyll!s"
+date:   2016-01-08 15:04:23
+categories: [example]
+tags: [jekyll]
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
