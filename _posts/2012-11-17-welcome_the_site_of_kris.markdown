@@ -1,8 +1,8 @@
 ---
-title:  "欢迎来到Kris的站点"
-date:   2012-11-17 08:52:34.0
-categories: [随记]
-tags:   [Kris,忐忑,主角,空间]
+title:	"欢迎来到Kris的站点"
+date:	2012-11-17 08:52:34.0
+categories:	[随记]
+tags:	[Kris,忐忑,主角,空间]
 ---
 
 终于和大家见面了！！！
