@@ -4,7 +4,18 @@ date:	2012-11-17 08:52:34.0
 categories:	[随记]
 tags:	[Kris,忐忑,主角,空间]
 ---
+ile is updated.
+
+To add
 hi, tey to sds
+
+``` ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
 
 终于和大家见面了！！！
 
