@@ -4,10 +4,11 @@ date:	2012-11-17 08:52:34.0
 categories:	[随记]
 tags:	[Kris,忐忑,主角,空间]
 ---
-ile is updated.
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add
-hi, tey to sds
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
 
 ``` ruby
 def print_hi(name)
@@ -17,16 +18,8 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
-终于和大家见面了！！！
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-怀着忐忑与喜悦的心情完成了本空间的修改与上传。
-
-每次开始做新的事情，总有一种用不完的劲，也幻想成自己再次重生，从一张白纸再次绘画出五彩缤纷的画卷。
-
-<!--more-->
-
-第一次做自己的空间。以前给别人做时，总是热情的给别人支招，这里应该怎么弄，那里应该怎么设计 。 轮到自己来做主角了，才发现什么叫犹豫不决，什么叫猴子掰包谷，总想把自己的空间弄成最好的，但每每却是走回头路。
-
-不管怎么样还是踏出了这第一步，为了给自己money的一个交待，逼迫着自己在这条路继续走下去。
-
-如果大家有什么好的想法，或者是好的建议，不吝赐教！
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
