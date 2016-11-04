@@ -1,0 +1,35 @@
+---
+title:	"书籍"
+date:	2012-11-17 20:29:34.0
+categories:	[书籍]
+tags:	[Android 开发入门与实战(第二版),携程,如家,汉庭,启示录,如丧,活法,生死疲劳,白鹿原]
+---
+
+<style type="text/css" media="screen"><!--
+blockquote{border:1px dotted #E7E7E7; background:#F4F4F4; padding:1em 1em 0; margin:0 14px 14px} h3{border-bottom:2px solid #EEE;width:200px}
+--></style>
+<h3><b>我参加编写的书籍</b></h3>
+<div>
+<img src="http://www.krislq.com/wp-content/uploads/2012/11/android-google_developer-2.jpg" alt="android-google_developer-2" width="250" height="250" class="alignnone size-full wp-image-767" />
+<a href="http://product.dangdang.com/23256130.html#ddclick?act=click&pos=23256130_0_1_q&cat=&key=android%BF%AA%B7%A2%C8%EB%C3%C5%D3%EB%CA%B5%D5%BD%B5%DA2%B0%E6&qinfo=4_1_48&pinfo=&minfo=&ninfo=&custid=&permid=20140524194214109117417768180373675&ref=http%3A%2F%2Fv.dangdang.com%2F%3F_ddclickunion%3DP-295132-81447_64_0__1%7Cad_type%3D0%7Csys_id%3D1&rcount=&type=&t=1402976074000" title="Android 开发入门与实战(第二版)" target="_blank">Android 开发入门与实战(第二版)</a>
+</div>
+<!--more-->
+<br/>
+<h3><b>我读过的书籍</b></h3>
+
+<a href="http://baike.baidu.com/view/3213994.htm" title="《这才是最牛团队：从携程到如家、汉庭2》-百科" target="_blank">《这才是最牛团队：从携程到如家、汉庭2》-高级幕僚</a>
+<a href="http://baike.baidu.com/view/3213994.htm" title="《这才是最牛团队：从携程到如家、汉庭1》-百科" target="_blank">《这才是最牛团队：从携程到如家、汉庭1》-高级幕僚</a>
+<a href="http://baike.baidu.com/view/13440710.htm" title="《你的孤独，虽败犹荣》-百科" target="_blank">《你的孤独，虽败犹荣》-刘同</a>
+<a href="http://baike.baidu.com/view/5680378.htm" title="《启示录》-百科" target="_blank">《启示录：打造用户喜爱的产品》-Marty Cagan</a>
+为什么市场上那么多软件产品无人问津，成功的产品凤毛麟角？怎样发掘有价值的产品？拿什么说服开发团队接受你的产品设计？如何将敏捷方法融入产品开发？
+在这本书中可以找到答案
+
+<a href="http://baike.baidu.com/view/13440710.htm" title="《你的孤独，虽败犹荣》-百科" target="_blank">《你的孤独，虽败犹荣》-刘同</a>
+<a href="http://baike.baidu.com/subview/332602/5814440.htm" title="《追风筝的人》-百科" target="_blank">《追风筝的人》-卡勒德·胡赛尼</a>
+<a href="http://baike.baidu.com/view/8407341.htm" title="《如丧》-百科" target="_blank">《如丧》-高晓松</a>
+<a href="http://baike.baidu.com/subview/1892988/11002040.htm" title="《活法》-百科" target="_blank">《活法》-稻盛和夫</a>
+《活法》是日本企业家稻盛和夫的代表作，原书由日本SUNMARK出版社出版，被誉为日本21世纪励志第一书。稻盛和夫是日本两家世界500强企业京瓷和KDDI的创始人，被誉为日本经营四圣之一，他是季羡林认为稀有的既是企业家又是哲学家的人物。《活法》的思想主要源自儒家和佛教，结合稻盛和夫经营的经历与感悟，形成了一个思想体系。
+<a href="http://baike.baidu.com/view/4352509.htm" title="《拆掉思维里的墙》-百科" target="_blank">《拆掉思维里的墙》-古典</a>
+<a href="http://baike.baidu.com/subview/352934/9672193.htm" title="《生死疲劳》-百科" target="_blank">《生死疲劳》-莫言</a>
+<a href="http://baike.baidu.com/view/9149637.htm" title="《四步创业法》-百科" target="_blank">《四步创业法》-Steven Gary Blank</a>
+<a href="http://baike.baidu.com/subview/120582/4966270.htm" title="《白鹿原》-百科" target="_blank">《白鹿原》-陈忠实</a>
