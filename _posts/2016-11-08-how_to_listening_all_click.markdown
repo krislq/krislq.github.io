@@ -4,7 +4,7 @@ date:	2016-11-08 18:08:08.0
 categories:	[Android,开发]
 tags:	[ActivityLifecycleCallbacks,Anroid,GrowingIO]
 ---
-![collect all the data](https://pic4.zhimg.com/b4b55685432e44e98a41f404c65e676b_b.jpg "collect all the data")
+![collect all the data](http://pic4.zhimg.com/b4b55685432e44e98a41f404c65e676b_b.jpg "collect all the data")
 
 先给大家看一篇神策创始人[桑文锋](https://www.zhihu.com/people/sang-wen-feng) 的文章:[在数据采集上的痛苦、幻想与失望](https://zhuanlan.zhihu.com/p/21628977)。然后再看看知乎上面一篇关于[GrowingIO 如何做到不必埋点即可采集到齐全的用户行为点击流数据?](https://www.zhihu.com/question/38000812)，文章中只是讨论了埋点的一些问题，但是对于其中的技术实现也没有提及。在网上搜索下了，也没有搜索到相关的技术文章。
 
